@@ -2,7 +2,7 @@
 
 A small slingshot shooting game written in C++ with raylib, running on a hand-written 2D physics engine.
 
-Hobby project from 2023, written with one other contributor. It continues the game prototype
+Hobby project from 2023. It continues the game prototype
 from [FlatPhysics](https://github.com/NaNIsaac/FlatPhysics): launch a limited number of shots to bring
 the enemy's HP to zero; damage depends on how hard it is hit.
 
