@@ -1,5 +1,7 @@
 # ShootingGame
 
+Moved to games-2023/ShootingGame (https://github.com/NaNIsaac/games-2023/tree/main/ShootingGame). This repo is no longer maintained.
+
 A small slingshot shooting game written in C++ with raylib, running on a hand-written 2D physics engine.
 
 Hobby project from 2023. It continues the game prototype
