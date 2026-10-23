@@ -34,3 +34,29 @@ as the working directory (the Visual Studio default).
 - `FlatPhysics/src/Engine/` - physics engine and raylib helpers
 - `FlatPhysics/src/Game/` - entry point (`Application.cpp`) and game logic
 - `FlatPhysics/asset/` - textures, music and sound effects
+
+## Build from the command line
+
+Rebuilt on 2026-10-23 without source changes, using MSBuild from the Visual Studio 2022 Build Tools
+(MSVC 14.44, toolset v143); only conversion and template warnings were reported:
+
+```
+MSBuild FlatPhysics.sln -p:Configuration=Debug -p:Platform=x86
+cd FlatPhysics
+..\Debug\FlatPhysics.exe
+```
+
+`Debug\raylib.dll` is tracked in the repository, so no DLL needs to be copied. The window is 1300x864.
+
+## Contributors and branches
+
+Commits come from Isaac Yong and `kimnoa` (branch `Kim`, commit `31edead`, "+Kim"). The branches `Yong` and
+`master` also exist. `코드구조.pptx` is the same code-structure slide deck as in FlatPhysics.
+
+## Origin
+
+The first commit (`edd9f12`) is dated 2023-05-26, the day FlatPhysics's last commits were made; the engine
+and game code were then extended here with damage, a crash sound and unloading of resources. This
+repository's history was imported into [games-2023](https://github.com/NaNIsaac/games-2023) as
+`ShootingGame/` with `git subtree` (games-2023 commit `992021b`, from commit `d732776` here). Apart from
+line endings, the files there are identical to this repository's.
