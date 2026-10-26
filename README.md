@@ -1,10 +1,8 @@
 # ShootingGame
 
-Moved to games-2023/ShootingGame (https://github.com/NaNIsaac/games-2023/tree/main/ShootingGame). This repo is no longer maintained.
-
 A small slingshot shooting game written in C++ with raylib, running on a hand-written 2D physics engine.
 
-Hobby project from 2023. It continues the game prototype
+Hobby project from 2023, made by a study group. It continues the game prototype
 from [FlatPhysics](https://github.com/NaNIsaac/FlatPhysics): launch a limited number of shots to bring
 the enemy's HP to zero; damage depends on how hard it is hit.
 
@@ -54,15 +52,20 @@ cd FlatPhysics
 
 The build copies `lib\raylib.dll` into `Debug\`. The window is 1300x864.
 
-## Contributors and branches
+## Contributors
 
-Commits come from Isaac Yong and `kimnoa` (branch `Kim`, commit `31edead`, "+Kim"). The branches `Yong` and
+Made by a study group of the 2023 spring semester at Sogang University. Its members first wrote a slingshot game
+on their own ([kimnoa/2023_1_project](https://github.com/kimnoa/2023_1_project),
+[culee1999/shooting_game](https://github.com/culee1999/shooting_game), May 2023) and on 2023-05-25 and
+2023-05-26 moved it onto the engine. Members: [NaNIsaac](https://github.com/NaNIsaac),
+[culee1999](https://github.com/culee1999) and [kimnoa](https://github.com/kimnoa). kimnoa also reported the
+raylib build errors on a fresh clone that led to the build fixes. The physics engine is a copy of
+[FlatPhysics](https://github.com/NaNIsaac/FlatPhysics), which NaNIsaac wrote alone.
+
+The git history of `main` records NaNIsaac; the branches `Kim` (commit `31edead`, "+Kim"), `Yong` and
 `master` also exist. `코드구조.pptx` is the same code-structure slide deck as in FlatPhysics.
 
 ## Origin
 
 The first commit (`edd9f12`) is dated 2023-05-26, the day FlatPhysics's last commits were made; the engine
-and game code were then extended here with damage, a crash sound and unloading of resources. This
-repository's history was imported into [games-2023](https://github.com/NaNIsaac/games-2023) as
-`ShootingGame/` with `git subtree` (games-2023 commit `992021b`, from commit `d732776` here). Apart from
-line endings, the files there are identical to this repository's.
+and game code were then extended here with damage, a crash sound and unloading of resources.
