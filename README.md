@@ -72,9 +72,9 @@ first commit date:
 
 | When | Repository | What | Status |
 |---|---|---|---|
-| 2023-03-01 | [NaNIsaac/ScreenSaver](https://github.com/NaNIsaac/ScreenSaver) | openFrameworks scenes, one per member | study |
-| 2023-03-01 | [culee1999/Screen_Saver](https://github.com/culee1999/Screen_Saver) | a screensaver by culee1999 | study |
-| 2023-03-01 | [culee1999/Brick_break](https://github.com/culee1999/Brick_break) | brick breaker (created 2023-02-28) | not confirmed whether it belongs to the study |
+| 2023-03-01 | [NaNIsaac/ScreenSaver](https://github.com/NaNIsaac/ScreenSaver) | openFrameworks scenes, one per member | study, related to the Computer Engineering Lab course |
+| 2023-03-01 | [culee1999/Screen_Saver](https://github.com/culee1999/Screen_Saver) | a screensaver by culee1999 | study, related to the Computer Engineering Lab course |
+| 2023-03-01 | [culee1999/Brick_break](https://github.com/culee1999/Brick_break) | brick breaker (created 2023-02-28) | not confirmed whether it belongs to the study; may be course work for the Computer Engineering Lab |
 | 2023-03-17 to 2023-05-26 | [NaNIsaac/FlatPhysics](https://github.com/NaNIsaac/FlatPhysics) | 2D physics engine by NaNIsaac alone; the game branches of 2023-05-25 and 2023-05-26 are the group's | engine: solo |
 | 2023-05-05 to 2023-05-20 | [culee1999/shooting_game](https://github.com/culee1999/shooting_game) | first slingshot game | study |
 | 2023-05-18 | [kimnoa/2023_1_project](https://github.com/kimnoa/2023_1_project) | slingshot game, described as "2023년 봄학기 스터디그룹" | study |
