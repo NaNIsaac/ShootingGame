@@ -6,12 +6,6 @@ Hobby project from 2023, made by a study group. It continues the game prototype
 from [FlatPhysics](https://github.com/NaNIsaac/FlatPhysics): launch a limited number of shots to bring
 the enemy's HP to zero; damage depends on how hard it is hit.
 
-## Screenshots
-
-![Title screen](docs/media/screenshot-1.png) ![Shot hitting the enemy](docs/media/screenshot-2.png)
-
-![Short gameplay recording](docs/media/demo.gif)
-
 ## Requirements
 
 - Windows, Visual Studio 2022 with "Desktop development with C++" (toolset v143)
@@ -28,7 +22,7 @@ as the working directory (the Visual Studio default).
 ## Controls
 
 - Start / Exit buttons on the title screen
-- Drag and release the projectile with the left mouse button to launch it; the launch speed depends only on the pull, not on the frame rate
+- Drag and release the projectile with the left mouse button to launch it
 - Mouse wheel: zoom, arrow keys: pan the camera, `T`: reset the camera
 - `||` button: pause menu, `Music` button: switch or mute background music
 - `C` / `G`: jump to the game-clear / game-over screen (debug shortcuts)
@@ -54,7 +48,10 @@ The build copies `lib\raylib.dll` into `Debug\`. The window is 1300x864.
 
 ## Contributors
 
-Made in 2023 by the study group: [NaNIsaac](https://github.com/NaNIsaac),
+Made by a study group of the 2023 spring semester at Sogang University. Its members first wrote a slingshot game
+on their own ([kimnoa/2023_1_project](https://github.com/kimnoa/2023_1_project),
+[culee1999/shooting_game](https://github.com/culee1999/shooting_game), May 2023) and on 2023-05-25 and
+2023-05-26 moved it onto the engine. Members: [NaNIsaac](https://github.com/NaNIsaac),
 [culee1999](https://github.com/culee1999) and [kimnoa](https://github.com/kimnoa). kimnoa also reported the
 raylib build errors on a fresh clone that led to the build fixes. The physics engine is a copy of
 [FlatPhysics](https://github.com/NaNIsaac/FlatPhysics), which NaNIsaac wrote alone.
