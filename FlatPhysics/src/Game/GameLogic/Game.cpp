@@ -100,7 +100,7 @@ void Game::UpdateGame(float deltaTime) {
             cannon->isClicked = false;
             entity->GetBody()->IsStatic = false;
             entity->SetVelocity(FlatVector::Zero());
-            entity->AddForce(cannon->GetDisplacement() * -800000.0f);
+            entity->AddForce(cannon->GetDisplacement() * -800000.0f * (1.0f / 60.0f / deltaTime));
             cannon->isReleased = true;
             cannon->ResetTime();
             
