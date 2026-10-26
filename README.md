@@ -65,6 +65,21 @@ raylib build errors on a fresh clone that led to the build fixes. The physics en
 The git history of `main` records NaNIsaac; the branches `Kim` (commit `31edead`, "+Kim"), `Yong` and
 `master` also exist. `코드구조.pptx` is the same code-structure slide deck as in FlatPhysics.
 
+## 2023 spring study group
+
+ShootingGame was the last project of the study group. The repositories of its members from that spring, by
+first commit date:
+
+| When | Repository | What | Status |
+|---|---|---|---|
+| 2023-03-01 | [NaNIsaac/ScreenSaver](https://github.com/NaNIsaac/ScreenSaver) | openFrameworks scenes, one per member | study |
+| 2023-03-01 | [culee1999/Screen_Saver](https://github.com/culee1999/Screen_Saver) | a screensaver by culee1999 | study |
+| 2023-03-01 | [culee1999/Brick_break](https://github.com/culee1999/Brick_break) | brick breaker (created 2023-02-28) | not confirmed whether it belongs to the study |
+| 2023-03-17 to 2023-05-26 | [NaNIsaac/FlatPhysics](https://github.com/NaNIsaac/FlatPhysics) | 2D physics engine by NaNIsaac alone; the game branches of 2023-05-25 and 2023-05-26 are the group's | engine: solo |
+| 2023-05-05 to 2023-05-20 | [culee1999/shooting_game](https://github.com/culee1999/shooting_game) | first slingshot game | study |
+| 2023-05-18 | [kimnoa/2023_1_project](https://github.com/kimnoa/2023_1_project) | slingshot game, described as "2023년 봄학기 스터디그룹" | study |
+| 2023-05-26 | NaNIsaac/ShootingGame (this repository) | the group's game on the FlatPhysics engine | study, last project |
+
 ## Origin
 
 The first commit (`edd9f12`) is dated 2023-05-26, the day FlatPhysics's last commits were made; the engine
