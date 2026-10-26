@@ -10,7 +10,7 @@ the enemy's HP to zero; damage depends on how hard it is hit.
 
 ## Screenshots
 
-![Title screen](docs/media/screenshot-1.png) ![Slingshot shot in flight](docs/media/screenshot-2.png)
+![Title screen](docs/media/screenshot-1.png) ![Shot hitting the enemy](docs/media/screenshot-2.png)
 
 ![Short gameplay recording](docs/media/demo.gif)
 
@@ -30,7 +30,7 @@ as the working directory (the Visual Studio default).
 ## Controls
 
 - Start / Exit buttons on the title screen
-- Drag and release the projectile with the left mouse button to launch it
+- Drag and release the projectile with the left mouse button to launch it; the launch speed depends only on the pull, not on the frame rate
 - Mouse wheel: zoom, arrow keys: pan the camera, `T`: reset the camera
 - `||` button: pause menu, `Music` button: switch or mute background music
 - `C` / `G`: jump to the game-clear / game-over screen (debug shortcuts)
