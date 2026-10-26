@@ -8,6 +8,12 @@ Hobby project from 2023. It continues the game prototype
 from [FlatPhysics](https://github.com/NaNIsaac/FlatPhysics): launch a limited number of shots to bring
 the enemy's HP to zero; damage depends on how hard it is hit.
 
+## Screenshots
+
+![Title screen](docs/media/screenshot-1.png) ![Slingshot shot in flight](docs/media/screenshot-2.png)
+
+![Short gameplay recording](docs/media/demo.gif)
+
 ## Requirements
 
 - Windows, Visual Studio 2022 with "Desktop development with C++" (toolset v143)
