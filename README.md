@@ -83,3 +83,8 @@ first commit date:
 
 The first commit (`edd9f12`) is dated 2023-05-26, the day FlatPhysics's last commits were made; the engine
 and game code were then extended here with damage, a crash sound and unloading of resources.
+
+## License
+
+MIT License, Copyright (c) 2023-2026 NaNIsaac, culee1999 and kimnoa; see [LICENSE](LICENSE). The bundled
+raylib 4.2 (`include/`, `lib/`) keeps its own zlib/libpng license.
