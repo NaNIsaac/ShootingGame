@@ -16,7 +16,7 @@ the enemy's HP to zero; damage depends on how hard it is hit.
 ## Run
 
 1. Open `FlatPhysics.sln` (the project kept the engine's name).
-2. Select the `Debug` / `x86` configuration and run (F5).
+2. Run (F5). The build copies `lib\raylib.dll` next to the exe.
 
 Textures, music and sounds are loaded from `asset/`, so the game must start with `FlatPhysics/`
 as the working directory (the Visual Studio default).
@@ -41,12 +41,12 @@ Rebuilt on 2026-10-23 without source changes, using MSBuild from the Visual Stud
 (MSVC 14.44, toolset v143); only conversion and template warnings were reported:
 
 ```
-MSBuild FlatPhysics.sln -p:Configuration=Debug -p:Platform=x86
+MSBuild FlatPhysics.sln -p:Configuration=Debug
 cd FlatPhysics
 ..\Debug\FlatPhysics.exe
 ```
 
-`Debug\raylib.dll` is tracked in the repository, so no DLL needs to be copied. The window is 1300x864.
+The build copies `lib\raylib.dll` into `Debug\`. The window is 1300x864.
 
 ## Contributors and branches
 
